@@ -1,0 +1,261 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    block-size: border-box;
+
+}
+.shop{
+    width: 100%;
+    padding: 20px 30px;
+}
+.shop h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: red;
+    font-size: 32px;
+    font-weight: 300;
+}
+.shop p{
+    margin-top: 5px;
+    color: orange;
+    font-size: 14px;
+    font-weight: 600;
+}
+.shop .container{
+    min-width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+.shop .container .left_box{
+    width: 25%;
+}
+.shop .container .left_box .category{
+    border: 2px solid orangered;
+    width: 200px;
+    border-radius: 6px;
+}
+.shop .container .left_box .category .header{
+    min-width: 100%;
+    padding: 10px 20px;
+    background: orangered;
+}
+.shop .container .left_box .category .header h3{
+    font-size: 16px;
+    color: yellow;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.shop .container .left_box .category .box{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 20px;
+}
+.shop .container .left_box .category .box ul{
+    min-width: 100%;
+}
+.shop .container .left_box .category .box ul li{
+    list-style: none;
+    margin-left: 20px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 300;
+    color: orange;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.shop .container .left_box .category .box ul li:hover{
+    color: yellow;
+}
+.shop .container .left_box .banner{
+    margin-top: 20px;
+    width: 250px;
+}
+.shop .container .left_box .banner .img_box img{
+    width: 100%;
+    object-fit: cover;
+}
+.shop .container .right_box {
+    width: 74%;
+}
+.shop .container .right_box .banner{
+    min-width: 100%;
+}
+.shop .container .right_box .banner .img_box img{
+    width: 100%;
+    object-fit: cover;
+}
+.shop .container .right_box .product_box{
+    max-width: 100%;
+    padding: 10px 10px;
+    
+}
+.shop .container .right_box .product_box h2{
+    color: orange;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.shop .container .right_box .product_box .product_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.shop .container .right_box .product_box .product_container .box{
+    padding: 10px 10px;
+    width: 270px;
+    height: 370px;
+    overflow: hidden;
+    border: 2px solid orangered;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.shop .container .right_box .product_box .product_container .box .img_box {
+    display: flex;
+}
+.shop .container .right_box .product_box .product_container .box .img_box img{
+    width: 45%;
+    height: 160px;
+    object-fit: contain;
+    margin-top: 40px;
+}
+.shop .container .right_box .product_box .product_container .box .img_box .icon{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-left: 150px;
+    transition: 0.5s;
+}
+.shop .container .right_box .product_box .product_container .box .img_box .icon li{
+    list-style: none;
+    border: 2px solid orangered;
+    padding: 10px 10px;
+    margin-top:10px;
+    color: orangered;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.shop .container .right_box .product_box .product_container .box .img_box .icon li:hover{
+    color: bisque;
+    background: orangered;
+}
+.shop .container .right_box .product_box .product_container .box:hover .img_box .icon{
+    margin-left: -1px;
+}
+.shop .container .right_box .product_box .product_container .box:hover .detail{
+    margin-top: 20px;
+    width: 100%;
+}
+.shop .container .right_box .product_box .product_container .box .detail h3{
+    text-align: center;
+    color: orange;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: capitalize;
+
+}
+.shop .container .right_box .product_box .product_container .box .detail p{
+    margin-top: 5px;
+    text-align: center;
+    color:green;
+    font-size: 16px;
+}
+.shop .container .right_box .product_box .product_container .box .detail button{
+    margin-top: 10px;
+    margin-left: 30%;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: white;
+    background: orangered;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.shop .container .right_box .product_box .product_container .box .detail button:hover{
+    color: orange;
+    background: yellow;
+}
+.product_detail{
+    width: 900px;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    left: 170px;
+    background: white;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+.product_detail .close_btn{
+    float: right;
+    border: none;
+    outline: none;
+    background: none;
+    color: orangered;
+    font-size: 30px;
+    cursor: pointer;
+}
+.product_detail .container{
+    width: 100px;
+    display: flex;
+}
+.product_detail .container .img_box{
+    padding: 20px 20px;
+    background: white;
+    border-radius: 10px;
+}
+.product_detail .container .img_box img{
+    width: 170px;
+    height: 250px;
+
+}
+.product_detail .container .info{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.product_detail .container .info h4{
+    color: green;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.product_detail .container .info h2{
+    margin-top: 30px;
+    color: yellow;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+}
+.product_detail .container .info p{
+    margin-top: 10px;
+    color: orangered;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.product_detail .container .info h3{
+    margin-top: 10px;
+    font-size: 24px;
+    color: green;
+}
+.product_detail .container .info button{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background: none;
+    background: orangered;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+}
+

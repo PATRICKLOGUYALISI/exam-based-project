@@ -1,0 +1,98 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.footer{
+    width: 100%;
+    padding: 20px 30px;
+    background: red;
+}
+.footer .container{
+    display: flex;
+    min-width: 100%;
+}
+.footer .container .left-box{
+    width: 25%;
+    border-right: 2px solid white;
+}
+.footer .container .left-box .box{
+    display: flex;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+.footer .container .left-box .box .icon_box{
+    font-size: 30px;
+    color: pink;
+}
+.footer .container .left-box .box .details{
+    margin-left: 10px;
+}
+.footer .container .left-box .box .details h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: yellow;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.footer .container .left-box .box .details p{
+    font-size: 14px;
+    color: blue;
+}
+.footer .container .right_box{
+    padding: 10px 20px;
+    width: 69%;
+} 
+.footer .container .right_box .header{
+    min-width: 100%;
+    align-items: center;
+}
+.footer .container .right_box .header img{
+    margin-top: -5px;
+    margin-left: 30%;
+    width: 100px;
+    height: 100px;
+    color: red;
+}
+.footer .container .right_box .header p{
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    color: yellow;
+}
+.footer .container .right_box  .bottom{
+    padding: 20px 20px;
+    margin-top:30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .container .right_box .bottom .box{
+    padding: 10px 20px;
+}
+.footer .container .right_box .bottom .box h3{
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.footer .container .right_box .bottom .box ul{
+    margin-top: 10px;
+}
+.footer .container .right_box .bottom .box ul li{
+    list-style: none;
+    margin-top: 5px;
+    color: blue;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.footer .container .right_box .bottom .box ul li:hover{
+    color:yellow;
+}
